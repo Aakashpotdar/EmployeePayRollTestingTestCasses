@@ -26,7 +26,7 @@ namespace EmployeeManagment
             data.NetPay = 2974;
             data.StartDate = DateTime.Now;
 
-            // employee.AddEmployee(data);
+            employee.AddEmployee(data);
             employee.GetAllEmpoyee();
 
         }
